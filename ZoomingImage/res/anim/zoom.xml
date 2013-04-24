@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale>
+    
+     
+      android:fromXScale="0.0" 
+      android:toXScale="3.0"
+ android:fromYScale="0.0" 
+ android:toYScale="3.0" 
+ android:pivotX="10%"
+ android:pivotY="10%" 
+ android:fillAfter="true" 
+ android:duration="10000" 
+    
+
+</scale>

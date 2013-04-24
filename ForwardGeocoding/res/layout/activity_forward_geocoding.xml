@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForwardGeocodingActivity" >
+<EditText 
+    android:id="@+id/take_address"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter address"
+    />
+<Button 
+    android:id="@+id/get_address"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="getlatandlong"
+    />
+
+<TextView 
+    android:id="@+id/adding_longandlat"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="this is where u add lat and long"
+    />
+<EditText 
+    android:id="@+id/take_longitude"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter address"
+    />
+<EditText 
+    android:id="@+id/take_latitude"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter address"
+    />
+<Button 
+    android:text="getAddress"
+    android:id="@+id/get_coordinates"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<TextView 
+    android:id="@+id/adding_address"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="this is where u add address"/>
+</LinearLayout>
